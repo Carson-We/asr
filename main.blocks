@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="[t$SdTf77j`V`#]d-.c9" x="0" y="0"><statement name="HANDLER"><block type="asr_init" id="w1+;$!,H=p33DMOR*J4P"><field name="tx">SerialPin.P2</field><field name="rx">SerialPin.P12</field></block></statement></block><block type="device_forever" id="U7~4z:V,(nqbpiC]Wvi(" x="536" y="-8"><statement name="HANDLER"><block type="asr_cmd" id="E4H)c1-_RTd@EO50#4Ox"><next><block type="controls_if" id="FoaLo4XQoJ#lcm+jToZ5"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="asr_light" id="P05t+*jOIgQv4H0qJ]BX"><field name="compare">KittenASR.lightCMD.lampon</field></block></value><statement name="DO0"><block type="device_show_leds" id="4Cj$J3gARRrn$H5;b%y~"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><next><block type="controls_if" id="M)PS)cbUGcSH#pN3bjG]"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="asr_light" id="+,y@u?[Cb(QAx|3/$$3K"><field name="compare">KittenASR.lightCMD.lampoff</field></block></value><statement name="DO0"><block type="device_show_leds" id="o$VH}iD}`u1PtneRA74o"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></next></block></next></block></statement></block></xml>
